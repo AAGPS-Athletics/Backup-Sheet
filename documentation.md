@@ -29,6 +29,7 @@ As far as possible, the software has not used any athletics specific conventions
  
 ### Structure
  Col A: Full Name of `School`
+ 
  Col B: `School` ID  - should be short, and used as a convention throughout the competition.
  
 ## SHEET: `AGE GROUPS`
@@ -47,7 +48,9 @@ As far as possible, the software has not used any athletics specific conventions
  
  ### Structure
  Col A: Boolean which corresponds to whether the row is for a championship or not.
+ 
  Col B-{second last}: This contains scores for each place in an event that meets the criteria in Col. A(with left being the highest place, and right the lowest).
+ 
  Last Col: This contains the score awarded for a last place finish (in athletics it is possible for more than one person to come last).
  
  ## SHEET: `SETTINGS`
